@@ -110,4 +110,7 @@ export default {
 ::v-deep .name-wrapper.el-popover__reference {
   cursor: pointer;
 }
+::v-deep .el-table .el-table__body tr td:hover{
+  background-color: #d4b021 !important;
+}
 </style>
