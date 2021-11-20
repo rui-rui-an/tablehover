@@ -1,0 +1,60 @@
+
+// 火狐滚动条
+* {
+  scrollbar-color: #4f5561 #2a3447; /* 滑块颜色  滚动条背景颜色 */
+  scrollbar-width: thin; /* 滚动条宽度有三种：thin、auto、none */
+}
+
+body{
+/* 滑动条的颜色 */
+scrollbar-face-color:#4f5561;
+scrollbar-base-color:#4f5561; 
+
+/* 滑动条边框的颜色 */
+scrollbar-shadow-color:#2a3447;
+
+/* 槽的颜色 */
+scrollbar-highlight-color:#2a3447;
+scrollbar-track-color:#2a3447;
+
+/* 箭头的颜色 */
+scrollbar-arrow-color:#657494;
+scrollbar-3dlight-color: #2a3447; /**//*立体滚动条亮边的颜色*/     
+scrollbar-darkshadow-color: #2a3447; /**//*立体滚动条强阴影的颜色*/   
+}
+
+// 分页
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+  font-size: 16px!important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.14901960784313725)!important;
+  border-radius: 2px !important;
+  color: #8799bf !important;
+  height: 32px !important;
+  width: 32 !important;
+  line-height: 32px !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background: #657494 !important;
+  color: #fff !important;
+}
+
+.el-pagination.is-background .el-pager li:hover{
+  color: #fff !important;
+}
+
+
+.el-tab-pane .el-main {
+  overflow-y:hidden;
+}
+
+
+input::-ms-clear{display:none;}
+
+
+input[type="password"]::-ms-reveal{
+  display:none;
+}
+
+
